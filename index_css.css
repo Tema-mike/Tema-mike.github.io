@@ -9,3 +9,7 @@ html, body {
     width: 90%;
     margin: 0 auto;
 }
+#logo-img {
+    height: 50vh;
+    width: auto;
+}
