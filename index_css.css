@@ -16,6 +16,9 @@ html, body {
     display: flex;
     justify-content: center;
 }
+li {
+    display: inline-block;
+}
 #logo-img {
     height: 50vh;
     width: auto;
