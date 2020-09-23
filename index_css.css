@@ -28,7 +28,7 @@ li {
     transform: rotate(90deg);
     transform-origin: left top 0;
 
-    -moz-transform: rotate(90deg);
+    -moz-transform: rotate(-90deg);
     -moz-transform-origin: left top 0;
 
     -ms-transform: rotate(90deg);
