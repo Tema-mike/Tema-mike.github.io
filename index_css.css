@@ -24,7 +24,8 @@ li {
     width: auto;
 }
 #logo-text {
-    font-size: 36px;
+    font-size: 28px;
+    font-weight: 400;
     font-family: 'Fredericka the Great', cursive;
 
     transform: rotate(90deg);
