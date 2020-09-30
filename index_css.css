@@ -46,17 +46,5 @@ html, body {
 h1 {
     font-size: 28px;
     font-weight: 400;
-}
-#logo-text {
-
     font-family: 'Fredericka the Great', cursive;
-
-    transform: rotate(90deg);
-    transform-origin: center top 0;
-
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: center top 0;
-
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin: center top 0;
 }
