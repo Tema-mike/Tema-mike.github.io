@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     background: black;
     color: white;
+    font-size: 28px;
 }
 #work-place {
     width: 90%;
@@ -12,24 +13,26 @@ html, body {
 }
 #logo-container {
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: center;
 }
 #logo-container:only-child {
     display: inline-block;
+    width: 50%;
 }
 ul {
   list-style-type: none;
 }
 #logo-img {
-    height: 70vh;
+    height: 50vh;
     width: auto;
 }
 .menu {
     border-left: 2px solid white;
     margin-top: 5px;
     height: 25%;
+
 }
 .action-menu {
     color: white;
@@ -46,7 +49,9 @@ ul {
 
 
 h1 {
-    font-size: 28px;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 2rem;
     font-weight: 400;
     font-family: 'Fredericka the Great', cursive;
 }
