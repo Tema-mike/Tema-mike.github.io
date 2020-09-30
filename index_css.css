@@ -21,12 +21,13 @@ a {
     margin: 20px auto;
     display: flex;
     justify-content: center;
+    height: 60vh;
 }
 ul {
   list-style-type: none;
 }
 #logo-img {
-    height: 60vh;
+    height: 100%;
     width: auto;
     display: inline-block;
 }
