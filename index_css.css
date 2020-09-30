@@ -7,6 +7,10 @@ html, body {
     color: white;
     font-size: 28px;
 }
+a:hover, a:active, a:link {
+    text-decoration: none;
+    color: white;
+}
 #work-place {
     width: 90%;
     margin: 0 auto;
@@ -27,6 +31,7 @@ ul {
     display: inline-block;
 }
 #menu {
+    padding: 0;
     display: inline-block;
     width: 50%;
 }  .menu {
@@ -43,7 +48,7 @@ ul {
 }
 .item_menu {
     display: block;
-    text-decoration: none;
+
 }
 .action-item {
     display: block;
