@@ -19,7 +19,9 @@ html, body {
 #logo-container:only-child {
     display: inline-block;
 }
-
+ul {
+  list-style-type: none;
+}
 #logo-img {
     height: 70vh;
     width: auto;
