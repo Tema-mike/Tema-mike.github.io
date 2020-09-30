@@ -42,10 +42,11 @@ ul {
 
 }
 .item_menu {
-    display: none;
+    display: block;
     text-decoration: none;
 }
 .action-item {
+    display: block;
 
 }
 
