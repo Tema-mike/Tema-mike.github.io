@@ -12,23 +12,24 @@ html, body {
     margin: 0 auto;
 }
 #logo-container {
+    padding: 0;
     width: 50%;
     margin: 20px auto;
     display: flex;
     justify-content: center;
 }
-#logo-container:only-child {
-    display: inline-block;
-    width: 50%;
-}
 ul {
   list-style-type: none;
 }
 #logo-img {
-    height: 50vh;
-    width: auto;
+    height: auto;
+    width: 50%;
+    display: inline-block;
 }
-.menu {
+#menu {
+    display: inline-block;
+    width: 50%;
+}  .menu {
     border-left: 2px solid white;
     margin-top: 5px;
     height: 25%;
