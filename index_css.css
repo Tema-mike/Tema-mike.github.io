@@ -33,7 +33,7 @@ ul {
     display: inline-block;
 }
 #menu {
-    width: 61.18%;
+    width: 50%;
     height: 100%;
     padding: 0;
     display: inline-block;
@@ -72,6 +72,9 @@ ul {
     width: 30%;
     text-align: center;
   }
+.fab {
+    text-shadow: grey ;
+}
 
 h1 {
     margin: 0 auto;
@@ -83,7 +86,7 @@ h1 {
 }
 #author {
     display: flex;
-    margin: 0 auto;
+    margin: 20px auto;
     justify-content: center;
 }  .author {
     color: grey;
