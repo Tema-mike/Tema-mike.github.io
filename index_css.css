@@ -47,6 +47,7 @@ ul {
     display: block;
     height: auto;
 
+
 }
 .action-menu {
     color: white;
@@ -64,12 +65,12 @@ ul {
 }
 #contacts {
     width: 100%;
-    display: flex;
+
     margin: 20px auto;
 } .contact {
     display: inline-block;
     width: 30%;
-    justify-content: center;
+    text-align: center;
   }
 
 h1 {
