@@ -27,6 +27,7 @@ ul {
   list-style-type: none;
 }
 #logo-img {
+    margin-right: 5px;
     height: 100%;
     width: auto;
     display: inline-block;
@@ -34,11 +35,14 @@ ul {
 #menu {
     padding: 0;
     display: inline-block;
+    margin-left: 5px;
+    vertical-align: center;
 
 }  .menu {
     border-left: 2px solid white;
     margin-top: 5px;
     width: 100%;
+    display: block;
 
 }
 .action-menu {
@@ -47,7 +51,7 @@ ul {
 
 }
 .item_menu {
-    display: block;
+    display: none;
 
 }
 .action-item {
@@ -63,4 +67,11 @@ h1 {
     font-weight: 400;
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
+}
+#author {
+   display: flex;
+}  .author {
+    color: grey;
+    font-size: 0.5rem;
+    display: inline-block;
 }
