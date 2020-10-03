@@ -1,10 +1,10 @@
 
 
 $(".menu").hover(e => {
-    let menu = document.getElementsByClassName('menu');
-    let id_menu = menu.attr('id');
+    let menu = $(".menu").hover.attr('id');
+    //let id_menu = menu.attr('id');
 
-    console.log (id_menu);
+    console.log (menu);
     id_item = 0;
 
 });
