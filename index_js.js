@@ -3,16 +3,15 @@
 $(".menu").hover(function(){
 
     $(this).addClass('action-menu');
-    let content = $(this).children;
-    content.addClass('action-item');
+    $((this).children).addClass('action-item');
 
     //console.log (menu);
 
 }, function () {
 
     $(this).removeClass('action-menu');
-    let content = $(this).children;
-    content.removeClass('action-item');
+    $((this).children).removeClass('action-item');
+
 });
 
 
