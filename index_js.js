@@ -3,7 +3,7 @@
 $(".menu").hover(function(){
 
     $(this).addClass('action-menu');
-    let content = $(this).child;
+    let content = $(this).children;
     content.addClass('action-item');
 
     //console.log (menu);
@@ -11,7 +11,7 @@ $(".menu").hover(function(){
 }, function () {
 
     $(this).removeClass('action-menu');
-    let content = $(this).child;
+    let content = $(this).children;
     content.removeClass('action-item');
 });
 
