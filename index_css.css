@@ -55,16 +55,14 @@ ul {
 /*===========================================================================*/
 @media only screen and (min-width: 768px){
 
-    .menu :hover{
+    .action-menu {
+        color: white;
+        background: linear-gradient(90deg, rgba(256, 256, 256, 0.7), transparent);
 
     }
 }
 
-.action-menu {
-    color: white;
-    background: linear-gradient(90deg, rgba(256, 256, 256, 0.7), transparent);
 
-}
 .item_menu {
     display: none;
     width: 100%;
