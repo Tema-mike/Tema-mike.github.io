@@ -56,7 +56,11 @@ ul {
 
     .action-menu {
         color: white;
-        background: linear-gradient(90deg, rgba(256, 256, 256, 0.7), transparent);
+        background: linear-gradient(90deg, rgba(256, 256, 256, 0.4), transparent);
+    }
+    .action-item {
+        display: block;
+
     }
 }
 
@@ -66,10 +70,7 @@ ul {
     width: 100%;
 
 }
-.action-item {
-    display: block;
 
-}
 #contacts {
     width: 100%;
 
