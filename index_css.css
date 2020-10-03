@@ -52,18 +52,19 @@ ul {
 
 /*================ For device with width more than 768 px ===================*/
 /*===========================================================================*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
     .action-menu {
         color: white;
         background: linear-gradient(90deg, rgba(256, 256, 256, 0.2), transparent);
     }
+
     .action-item {
         display: block;
         width: 100%;
         color: white;
+    }
 }
-
 
 .item_menu {
     display: none;
@@ -102,5 +103,5 @@ h1 {
     margin-right: 0;
      }
  span {
-     color: white;
+     color: white
  }
