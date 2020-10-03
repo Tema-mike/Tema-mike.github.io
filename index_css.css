@@ -58,7 +58,7 @@ ul {
     .action-menu {
         color: white;
         background: linear-gradient(90deg, rgba(256, 256, 256, 0.7), transparent);
-
+        border: white;
     }
 }
 
