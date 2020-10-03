@@ -1,6 +1,6 @@
 
 
-$(".menu").hover(e => function(){
+$(".menu").hover(function(){
     $(this).css("border", "2px solid red");
     //className = document.getElementsByClassName('menu');
     //$(className).addClass('acton-menu');
