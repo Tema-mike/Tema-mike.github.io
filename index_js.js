@@ -2,7 +2,8 @@
 
 $(".menu").hover(e => {
     id_elem = $(".menu").getElementById();
-    id_item = $(".menu").child.getElementById();
+    console.log (id_elem);
+    id_item = $(".").child.getElementById();
 
 });
 
