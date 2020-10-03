@@ -1,9 +1,9 @@
 
 
 $(".menu").hover(e => function(){
-
-    className = document.getElementsByClassName('menu');
-    $(className).addClass('acton-menu');
+    $(this).css("border", "2px solid red");
+    //className = document.getElementsByClassName('menu');
+    //$(className).addClass('acton-menu');
     //$(this).addClass('action-menu');
     //let menu = $(this).attr('id');
     //let id_menu = menu.attr('id');
@@ -11,8 +11,8 @@ $(".menu").hover(e => function(){
     //console.log (menu);
 
 }, function () {
-
-    $(this).removeClass('action-menu');
+    $(this).css("border", "none");
+    //$(this).removeClass('action-menu');
 });
 
 
