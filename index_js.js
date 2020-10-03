@@ -2,6 +2,7 @@
 
 $(".menu").hover(e => {
     id_elem = $(".menu").attr('id');
+    id_elem = document.getElementsByClassName('menu').attr('id');
     console.log (id_elem);
     id_item = 0;
 
