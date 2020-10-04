@@ -24,30 +24,45 @@ a {
     height: 60vh;
 }
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 #logo-img {
     margin-right: 5px;
     height: 100%;
     width: 38.82%;
     display: inline-block;
+
+    animation-name: my-animation;
+    animation-duration: 3s;
+
+    -webkit-animation-name: my-animation;
+    -webkit-animation-duration: 3s;
+} .is-preload {
+      opacity: 0;
+  }
+@keyframes my-animation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
+
+
 #menu {
     width: 40%;
     height: 100%;
     padding: 0;
     display: inline-block;
     margin: 0 0 0 5px;
-}  .menu {
+}
+.menu {
     border-left: 2px solid white;
+    padding: 5px;
     margin-top: 5px;
     width: 100%;
-    display: block;
+    display: flex;
     height: 15%;
     cursor: pointer;
-
-
-
+    vertical-align: center;
+    justify-content: center;
 }
 
 /*================ For device with width more than 768 px ===================*/
@@ -63,45 +78,62 @@ ul {
         display: block;
         width: 100%;
         color: white;
+        margin: auto;
+
+        animation-name: my-animation;
+        animation-duration: 2s;
+
+        -webkit-animation-name: my-animation;
+        -webkit-animation-duration: 2s;
     }
 }
 
 .item_menu {
     display: none;
+
 }
 
 #contacts {
     width: 100%;
-    margin: 0 auto;
 } .contact {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
+      display: inline-block;
+      width: 25%;
+      text-align: center;
   }
 .fab {
     text-shadow: grey ;
 }
 
 h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+.logo-text {
     margin: 0 auto;
     width: 50%;
     font-size: 2.5rem;
     font-weight: 400;
-    font-family: 'Fredericka the Great', cursive;
+
     text-align: center;
+
+    animation-name: my-animation;
+    animation-duration: 3s;
+
+    -webkit-animation-name: my-animation;
+    -webkit-animation-duration: 3s;
 }
 #author {
+    padding: 0;
     display: flex;
     margin: 20px auto;
     justify-content: center;
 }  .author {
-    color: grey;
-    font-size: 0.5rem;
-    display: inline-block;
-    margin: 0 0 0 10px;
-} .author + .author {
-    margin-right: 0;
+       color: grey;
+       font-size: 0.5rem;
+       display: inline-block;
+       margin: 0 0 0 10px;
+   } .author + .author {
+         margin-right: 0;
      }
- span {
-     color: white
- }
+span {
+    color: white;
+}
