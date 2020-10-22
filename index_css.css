@@ -1,3 +1,7 @@
+
+/*======================= Static styles for all device ======================*/
+/*===========================================================================*/
+
 html, body {
     height: 100%;
     width: 100%;
@@ -5,19 +9,17 @@ html, body {
     padding: 0;
     background: black;
     color: white;
-    font-size: 28px;
-}
-a {
-    text-decoration: none;
-    color: white;
 }
 #work-place {
     width: 90%;
     margin: 0 auto;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 #logo-container {
     padding: 0;
-    width: 50%;
     margin: 20px auto;
     display: flex;
     justify-content: center;
@@ -29,7 +31,7 @@ ul {
 #logo-img {
     margin-right: 5px;
     height: 100%;
-    width: 38.82%;
+    width: 40%;
     display: inline-block;
 
     animation-name: my-animation;
@@ -40,59 +42,23 @@ ul {
 } .is-preload {
       opacity: 0;
   }
-@keyframes my-animation {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-
-#menu {
-    width: 40%;
-    height: 100%;
-    padding: 0;
-    display: inline-block;
-    margin: 0 0 0 5px;
-}
-.menu {
-    border-left: 2px solid white;
-    padding: 5px;
-    margin-top: 5px;
-    width: 100%;
-    display: flex;
-    height: 15%;
-    cursor: pointer;
-    vertical-align: center;
-    justify-content: center;
-}
-
-/*================ For device with width more than 768 px ===================*/
-/*===========================================================================*/
-@media only screen and (min-width: 768px) {
-
-    .action-menu {
-        color: white;
-        background: linear-gradient(90deg, rgba(256, 256, 256, 0.2), transparent);
-    }
-
-    .action-item {
-        display: block;
-        width: 100%;
-        color: white;
-        margin: auto;
-
-        animation-name: my-animation;
-        animation-duration: 2s;
-
-        -webkit-animation-name: my-animation;
-        -webkit-animation-duration: 2s;
-    }
-}
-
 .item_menu {
     display: none;
+    color: gray;
+} .item_menu:hover {
+    color: white;
+  }
 
-}
+.icon {
+    background-image: radial-gradient(grey 25%, rgb(64, 64, 64) 80%);
+    color: transparent;
 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+} .icon:hover {
+    color: white;
+  }
 #contacts {
     width: 100%;
 } .contact {
@@ -100,16 +66,12 @@ ul {
       width: 25%;
       text-align: center;
   }
-.fab {
-    text-shadow: grey ;
-}
-
 h1 {
     font-family: 'Fredericka the Great', cursive;
 }
 .logo-text {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     font-size: 2.5rem;
     font-weight: 400;
 
@@ -136,4 +98,157 @@ h1 {
      }
 span {
     color: white;
+}
+
+/*================ Album tablet and small laptop ===================*/
+/*=====================================================================*/
+@media (min-width: 769px) /*and (max-width: 991px)*/  {
+    html, body {
+        font-size: 6vh;
+    }
+    #logo-container {
+        width: 50%;
+    }
+    #logo-img {
+         width: 40%;
+    }
+
+    /*----------------------- Mobile menu module is none --------------------*/
+    #menu-mob{
+        display: none;
+    }
+
+    /*----------------------- Laptop's menu model ---------------------------*/
+    #menu {
+        width: 40%;
+        height: 100%;
+        padding: 0;
+        display: inline-block;
+        margin: 0 0 0 5px;
+    }
+    .menu {
+        border-left: 2px solid white;
+        padding: 5px;
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        height: 15%;
+        cursor: pointer;
+        vertical-align: center;
+        justify-content: center;
+    }
+
+    .action-menu {
+        color: white;
+        background: linear-gradient(90deg, rgba(256, 256, 256, 0.2), transparent);
+    }
+
+    .action-item {
+        display: block;
+        width: 100%;
+        color: white;
+        margin: auto;
+
+        animation-name: my-animation;
+        animation-duration: 2s;
+
+        -webkit-animation-name: my-animation;
+        -webkit-animation-duration: 2s;
+    }
+}
+/*=====================================================================*/
+
+
+/*================= album mobile and portrait tablet ==================*/
+/*=====================================================================*/
+
+@media (max-width: 768px)  {
+    /*--------- Styles for main tags ---------------*/
+    html, body {
+        font-size: 6vw;
+    }
+    #logo-container {
+        width: 100%;
+    }
+    #logo-img {
+        width: 50%;
+    }
+    /*---------------------- Laptop's menu module is none -------------------*/
+    #menu {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+
+    /*---------------------- Mobile menu module -----------------------------*/
+    #menu-mob {
+        display: block;
+        width: 40%;
+        padding-left: 20px;
+        margin: auto 0;
+    } #menu-mob:first-child {
+        margin-top: 0;
+          }
+    .menu_mob {
+        font-size: 1.8rem;
+        margin-top: 5px;
+    }
+
+    .author {
+        font-size: 0.8rem;
+    }
+
+    /*-------- Mobile for with menu items --------*/
+    #menu-container {
+        display: none;
+        position: absolute;
+        border: 5px solid grey;
+        border-radius: 15px;
+        background: black;
+        width: 96vw;
+        height: 96vh;
+        margin: auto;
+
+    } #head-menu {
+          background: grey;
+          display: flex;
+          color: white;
+          width: 100%;
+          font-size: 2.5rem;
+          justify-content: center;
+      }
+    #close {
+        font-size: 2rem;
+        margin:  auto;
+    }
+    #M {
+        margin: auto;
+    }
+    .close:hover {
+        color: black;
+    }
+    .mob_item {
+        font-size: 2rem;
+    }
+
+}
+/*=====================================================================*/
+
+
+/*================== small mobile and portrait tablet =================*/
+/*=====================================================================*/
+@media (max-width: 480px)  {
+    #work-place {
+        width: 95%;
+    }
+    .menu_mob {
+        font-size: 2rem;
+    }
+}
+/*=====================================================================*/
+
+@keyframes my-animation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
