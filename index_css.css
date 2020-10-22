@@ -99,6 +99,9 @@ h1 {
 span {
     color: white;
 }
+#menu-container {
+    display: none;
+}
 
 /*================ Album tablet and small laptop ===================*/
 /*=====================================================================*/
